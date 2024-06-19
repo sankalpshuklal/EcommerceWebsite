@@ -4,10 +4,11 @@ import { dataContext } from "../Context/AppContext"
 import Card from "./Card"
 const Hero = () => {
 
-    const { allProducts, firstVisit, loading, setItemCategory } = useContext(dataContext);
+    const { allProducts, firstVisit, loading, setItemCategory, setItemtag } = useContext(dataContext);
     
     function handleCategory(value){
         setItemCategory(value);
+        setItemtag(null)
     }
 
 

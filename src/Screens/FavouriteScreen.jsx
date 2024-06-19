@@ -12,14 +12,14 @@ const FavouriteScreen = () => {
             {favList.length ? (
                 favList.map((value) => (
                     <div key={value.id} className="my-10">
-                    <Card  item={value}></Card> 
+                    <Card  item={value} infavList={true}></Card> 
                     </div>
                    
                 ))
                 )
                 :
                 (
-                    <div className="my-24">NO Favourite item</div>
+                    <div className="flex justify-center items-center text-3xl font-thin w-full h-[30rem]">NO Favourite item</div>
                 )}
         </div>
         </div>

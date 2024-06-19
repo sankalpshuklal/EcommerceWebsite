@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div className="h-80 w-full bg-gray-200 flex justify-evenly items-center">
+    <div title="No option work here rn" className="h-80 w-full bg-gray-200 flex justify-evenly items-center">
       <div className="h-4/5 text-black flex justify-evenly flex-col w-1/5 ">
         <h5 className="text-bold text-xl hover:underline cursor-pointer ml-16">Shop</h5>
         <ul>

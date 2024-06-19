@@ -23,6 +23,8 @@ export default function AppContext({ children }) {
 
 
 
+
+
     //function for fetching all data from api
     async function fetchAPI() {
         setLoading(true);
@@ -76,7 +78,8 @@ export default function AppContext({ children }) {
         cartList,
         setCartList, 
         itemCategory,
-        setItemCategory
+        setItemCategory,
+        
     };
 
     return <dataContext.Provider value={values}>
