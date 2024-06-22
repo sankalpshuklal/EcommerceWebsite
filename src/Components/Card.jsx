@@ -51,9 +51,10 @@ const Card = ({ item, infavList = false , inCartList = false}) => {
 
     return (
 
-        <div className="h-48 w-48 shadow-md m-2 relative ">
+        <div className="h-56 p-4 w-52 shadow-md m-2 relative ">
             <img onClick={() => { handleCardClick(item) }} className="h-32 w-full  cursor-pointer" src={item.thumbnail}></img>
             <p onClick={() => { handleCardClick(item) }} className="h-12 w-full cursor-pointer">{item.title}</p>
+            <p onClick={() => { handleCardClick(item) }} className="h-12 w-full cursor-pointer">{`$${item.price}`}</p>
             <div className="h-5 w-5 text-2xl absolute right-4 bottom-4 hover:text-gray-500 cursor-pointer"
                 onClick={() => { handleFavClick(item) }}
             >{

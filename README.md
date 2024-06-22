@@ -6,3 +6,18 @@ LIST OF ISSUES THAT NEED TO BE RESOLVED YET
 4. MOST IMPORTANT - the whole ui is just shameful rn, use framer motion and make it a hell lot cooler
 
 
+
+research abt them later 
+
+
+react fibre 
+one way data binding
+read abt bundler 
+learn redux bruh
+react useeffect lifecycle 
+aws s3
+
+Animate on scroll
+nodemailer
+uiverse.io
+

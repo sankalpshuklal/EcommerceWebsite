@@ -9,14 +9,14 @@ import { IoIosSearch } from "react-icons/io";
 
 
 const Header = () => {
-    const { setItemtag, allProducts, setItemCategory,} = useContext(dataContext);
+    const { setItemtag,  setItemCategory,} = useContext(dataContext);
     const [searchItem, setSearchItem] = useState(null);
     const navigation =useNavigate();
 
     function handleSearch(e){
         e.preventDefault();
         setItemtag(searchItem)
-        console.log(allProducts)
+    
     }
     function handleSearchValueChange(e){
         setSearchItem(e.target.value)
@@ -49,7 +49,7 @@ const Header = () => {
                 to="/profile"> <FaUser></FaUser></Link>
                 <Link className="h-full w-1/5  flex justify-center items-center text-3xl"
                 to="/favouriteProducts"> <FaRegHeart></FaRegHeart></Link>
-                <Link className="h-full w-1/5  flex justify-center items-center text-3xl"
+                <Link className=" h-full w-1/5  flex justify-center items-center text-3xl"
                 to="/cart"> <TiShoppingCart></TiShoppingCart></Link>
               
             </div>
