@@ -10,7 +10,7 @@ LIST OF ISSUES THAT NEED TO BE RESOLVED YET
 research abt them later 
 
 
-react fibre 
+react fibre gadha
 one way data binding
 read abt bundler 
 learn redux bruh
